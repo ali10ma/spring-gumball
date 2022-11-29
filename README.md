@@ -1,5 +1,25 @@
 # Lab #10 - DevOps CI/CD
 
+
+NOTES: 
+
+In order to complete this Lab, you need to use Gradle as the build tool instead of Maven. 
+Tool dependencies are:
+Gradle v5.6
+Java JDK 11
+SDK Man is the recommended tool to install Gradle.  https://sdkman.io/Links to an external site.
+Also, you will be creating a "public" repo in your personal GitHub account for this Lab.
+That is, you will not be using your assigned Class Repo for this Lab
+This is because a "dedicated" repo for this Lab is needed for CI/CD
+The recommended Repo name should be:  "spring-gumball"
+ 
+
+Lab Files with Starter Code: https://github.com/paulnguyen/cmpe172/tree/main/labs/lab10.Links to an external site.
+
+In this lab, you will use the starter code from:  https://github.com/paulnguyen/cmpe172/tree/main/labs/lab10/spring-gumball Links to an external site.and create a repo named spring-gumball in your personal GitHub Repo (not your private repo assigned for the class).
+
+Once you have this repo in place, add the following to GitHub Workflows and GitHub Actions.
+
 ## CI Workflow (Part 1)
 
 First, I started my own repository and added starter code files. Next I created new file gradle.yml and build and run workflows in repository/Actions tab. This image shows workflow successfully using the Gradle starter workflow on Github.
